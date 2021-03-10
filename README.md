@@ -3,10 +3,10 @@
 ### `npm i --save @fortawesome/fontawesome-svg-core`
 ### `npm i --save @fortawesome/react-fontawesom`
 
-# <ul><li>Create a custom library initFontAwesome.js and paste this code.</li></ul>
+## <ul><li>Create a custom library initFontAwesome.js and paste this code.</li></ul>
 
 ### `code: `
-import initFontAwesome from "./initFontAwesome";
+## `import initFontAwesome from "./initFontAwesome";`
 initFontAwesome();
 
 function App() {
@@ -18,7 +18,7 @@ function App() {
 }
 export default App;
 
-In Home.jsx include the following code
+## `In Home.jsx include the following code`
 
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
